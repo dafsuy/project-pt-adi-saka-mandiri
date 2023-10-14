@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PT. ADI SAKA MANDIRI - Providing medical equipment, healthcare devices, and laboratory products. Committed to delivering the best service and after-sales support to ensure the proper functioning of our products. Located in Bekasi, Indonesia."
+    />
+
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/dafsuy/adi-saka-mandiri/main/src/img/logo.png"
+    />
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/src/img/favicon.png" type="image/x-icon" />
+    <title>About Us - PT. Adi Saka Mandiri</title>
+  </head>
+  <body class="font-inter bg-green-50">
+    <!-- Header Start -->
+    <header
+      id="otherHeader"
+      class="top-0 left-0 flex items-center w-full py-5 mx-auto duration-500 bg-transparent navbar-fixed linear navbar-white fixed z-[1000] header"
+    >
+      <div class="container mx-auto">
+        <div class="relative flex items-center justify-between px-4">
+          <div class="flex items-center">
+            <img
+              src="/src/img/logo.png"
+              alt="PT. Adi Saka Mandiri"
+              class="w-8 mr-3 lg:w-12"
+            />
+            <!-- Logo End -->
+            <!-- Name Author Start-->
+            <h1
+              id="author"
+              class="text-xl font-bold text-primary font-inter lg:text-3xl"
+            >
+              PT. ADI <span class="text-accent">SAKA</span> MANDIRI
+            </h1>
+            <!-- Name Author End -->
+          </div>
+          <!-- Logo Start -->
+          <div class="flex items-center px-4">
+            <!-- Button Start -->
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="absolute block right-4 lg:hidden z-[2000]"
+            >
+              <span
+                class="transition duration-300 origin-top-left hamburger-line"
+              ></span>
+              <span class="transition duration-300 hamburger-line"></span>
+              <span
+                class="transition duration-300 origin-bottom-left hamburger-line"
+              ></span>
+            </button>
+            <!-- Button Stop-->
+            <!-- Nav Start -->
+            <nav
+              id="nav-menu"
+              class="overflow-y-scroll lg:overflow-y-visible fixed top-[69px] right-0 z-[1500] h-screen py-1 font-semibold text-slate-700 transition-all duration-300 ease-in translate-x-full lg:h-auto lg:w-full lg:translate-x-0 lg:pt-0 w-60 bg-white lg:static lg:block lg:bg-transparent lg:shadow-none lg:opacity-100 lg:text-slate-700 border-l lg:border-none"
+            >
+              <ul id="nav-list" class="block text-lg lg:flex lg:text-xl">
+                <li class="group">
+                  <a
+                    href="index.html"
+                    class="flex py-2 ml-8 duration-300 ease-in lg:border-none text-dark group-hover:text-secondary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <button
+                    type="button"
+                    class="inline-flex items-center justify-center gap-2 py-2 ml-8 duration-300 ease-in hs-collapse-toggle lg:border-none text-dark hover:text-secondary"
+                    id="hs-basic-collapse"
+                    data-hs-collapse="#hs-basic-collapse-heading"
+                  >
+                    Product
+                    <svg
+                      class="w-5 h-5 text-secondary hs-collapse-open:rotate-180"
+                      width="10"
+                      height="10"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </button>
+                  <div
+                    id="hs-basic-collapse-heading"
+                    class="hs-collapse hidden rounded-lg lg:absolute transition-[height] duration-300 overflow-hidden lg:bg-white text-slate-700"
+                    aria-labelledby="hs-basic-collapse"
+                  >
+                    <hr />
+                    <div
+                      class="pl-5 lg:border-[1px] rounded-lg text-sm lg:text-lg lg:py-5 my-5 lg:pl-0"
+                    >
+                      <ul class="flex flex-col gap-4">
+                        <li class="group">
+                          <a
+                            href="product.html#electromedic"
+                            class="py-2 mx-8 duration-300 ease-in lg:border-none text-dark hover:text-secondary"
+                            >Electromedic</a
+                          >
+                        </li>
+                        <li class="group">
+                          <a
+                            href="product.html#vehicle"
+                            class="py-2 mx-8 duration-300 ease-in lg:border-none text-dark hover:text-secondary"
+                            >Vehicle</a
+                          >
+                        </li>
+                        <li class="group">
+                          <a
+                            href="product.html#hvac"
+                            class="py-2 mx-8 duration-300 ease-in lg:border-none text-dark hover:text-secondary"
+                            >HVAC</a
+                          >
+                        </li>
+                        <li class="group">
+                          <a
+                            href="product.html#hospital-furniture"
+                            class="py-2 mx-8 duration-300 ease-in lg:border-none text-dark hover:text-secondary"
+                            >Hospital Furniture</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <hr />
+                  </div>
+                </li>
+                <li class="group">
+                  <a
+                    href="about.html"
+                    class="flex py-2 ml-8 duration-300 ease-in lg:border-none text-dark group-hover:text-secondary"
+                    >About</a
+                  >
+                </li>
+
+                <li class="group">
+                  <a
+                    href="index.html#contact"
+                    class="flex py-2 ml-8 duration-300 ease-in lg:border-none text-dark group-hover:text-secondary"
+                    >Contact</a
+                  >
+                </li>
+                <li class="p-4 lg:p-0 group">
+                  <a
+                    href="request.html"
+                    class="block p-2 mx-auto text-sm text-center text-white duration-300 ease-in rounded-md lg:flex lg:ml-8 lg:border-none text-dark group-hover:text-white hover:bg-green-600 bg-secondary"
+                    >Request For Quotation</a
+                  >
+                </li>
+              </ul>
+              <div class="p-4 lg:hidden">
+                <hr />
+                <!-- Sosmed -->
+                <div class="flex items-center gap-5 mt-5">
+                  <!-- Whatsapp -->
+                  <a
+                    href="https://wa.me/6285894313138"
+                    target="_blank"
+                    title="Contact via Whatsapp"
+                  >
+                    <svg
+                      viewBox="0 0 48 48"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#000000"
+                      class="sosmed"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>Contact with Whatsapp</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g
+                          id="Icons"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <g
+                            id="Color-"
+                            transform="translate(-700.000000, -360.000000)"
+                            fill="currentColor"
+                          >
+                            <path
+                              d="M723.993033,360 C710.762252,360 700,370.765287 700,383.999801 C700,389.248451 701.692661,394.116025 704.570026,398.066947 L701.579605,406.983798 L710.804449,404.035539 C714.598605,406.546975 719.126434,408 724.006967,408 C737.237748,408 748,397.234315 748,384.000199 C748,370.765685 737.237748,360.000398 724.006967,360.000398 L723.993033,360.000398 L723.993033,360 Z M717.29285,372.190836 C716.827488,371.07628 716.474784,371.034071 715.769774,371.005401 C715.529728,370.991464 715.262214,370.977527 714.96564,370.977527 C714.04845,370.977527 713.089462,371.245514 712.511043,371.838033 C711.806033,372.557577 710.056843,374.23638 710.056843,377.679202 C710.056843,381.122023 712.567571,384.451756 712.905944,384.917648 C713.258648,385.382743 717.800808,392.55031 724.853297,395.471492 C730.368379,397.757149 732.00491,397.545307 733.260074,397.27732 C735.093658,396.882308 737.393002,395.527239 737.971421,393.891043 C738.54984,392.25405 738.54984,390.857171 738.380255,390.560912 C738.211068,390.264652 737.745308,390.095816 737.040298,389.742615 C736.335288,389.389811 732.90737,387.696673 732.25849,387.470894 C731.623543,387.231179 731.017259,387.315995 730.537963,387.99333 C729.860819,388.938653 729.198006,389.89831 728.661785,390.476494 C728.238619,390.928051 727.547144,390.984595 726.969123,390.744481 C726.193254,390.420348 724.021298,389.657798 721.340985,387.273388 C719.267356,385.42535 717.856938,383.125756 717.448104,382.434484 C717.038871,381.729275 717.405907,381.319529 717.729948,380.938852 C718.082653,380.501232 718.421026,380.191036 718.77373,379.781688 C719.126434,379.372738 719.323884,379.160897 719.549599,378.681068 C719.789645,378.215575 719.62006,377.735746 719.450874,377.382942 C719.281687,377.030139 717.871269,373.587317 717.29285,372.190836 Z"
+                              id="Whatsapp"
+                            ></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                  <!-- Phone -->
+                  <a href="tel:6285894313138" target="_blank">
+                    <svg
+                      viewBox="0 0 15 15"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      fill="#000000"
+                      class="sosmed"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>Contact via Phone</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g
+                          id="Page-1"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <g
+                            id="Dribbble-Light-Preview"
+                            transform="translate(-103.000000, -7321.000000)"
+                            fill="currentColor"
+                          >
+                            <g
+                              id="icons"
+                              transform="translate(56.000000, 160.000000)"
+                            >
+                              <path
+                                d="M61.7302966,7173.99596 C61.2672966,7175.40296 59.4532966,7176.10496 58.1572966,7175.98796 C56.3872966,7175.82796 54.4612966,7174.88896 52.9992966,7173.85496 C50.8502966,7172.33496 48.8372966,7169.98396 47.6642966,7167.48896 C46.8352966,7165.72596 46.6492966,7163.55796 47.8822966,7161.95096 C48.3382966,7161.35696 48.8312966,7161.03996 49.5722966,7161.00296 C50.6002966,7160.95296 50.7442966,7161.54096 51.0972966,7162.45696 C51.3602966,7163.14196 51.7112966,7163.84096 51.9072966,7164.55096 C52.2742966,7165.87596 50.9912966,7165.93096 50.8292966,7167.01396 C50.7282966,7167.69696 51.5562966,7168.61296 51.9302966,7169.09996 C52.6632966,7170.05396 53.5442966,7170.87696 54.5382966,7171.50296 C55.1072966,7171.86196 56.0262966,7172.50896 56.6782966,7172.15196 C57.6822966,7171.60196 57.5872966,7169.90896 58.9912966,7170.48196 C59.7182966,7170.77796 60.4222966,7171.20496 61.1162966,7171.57896 C62.1892966,7172.15596 62.1392966,7172.75396 61.7302966,7173.99596 C61.4242966,7174.92396 62.0362966,7173.06796 61.7302966,7173.99596"
+                                id="call-[#192]"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                  <!-- Email -->
+                  <a href="mailto:wiweko.ismoyo@gmail.com" target="_blank">
+                    <svg
+                      class="sosmed"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>Contact via Email</title>
+                        <rect width="24" height="24" fill="white"></rect>
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M5.96802 4H18.032C18.4706 3.99999 18.8491 3.99998 19.1624 4.02135C19.4922 4.04386 19.8221 4.09336 20.1481 4.22836C20.8831 4.53284 21.4672 5.11687 21.7716 5.85195C21.9066 6.17788 21.9561 6.50779 21.9787 6.83762C22 7.15088 22 7.52936 22 7.96801V16.032C22 16.4706 22 16.8491 21.9787 17.1624C21.9561 17.4922 21.9066 17.8221 21.7716 18.1481C21.4672 18.8831 20.8831 19.4672 20.1481 19.7716C19.8221 19.9066 19.4922 19.9561 19.1624 19.9787C18.8491 20 18.4706 20 18.032 20H5.96801C5.52936 20 5.15088 20 4.83762 19.9787C4.50779 19.9561 4.17788 19.9066 3.85195 19.7716C3.11687 19.4672 2.53284 18.8831 2.22836 18.1481C2.09336 17.8221 2.04386 17.4922 2.02135 17.1624C1.99998 16.8491 1.99999 16.4706 2 16.032V7.96802C1.99999 7.52937 1.99998 7.15088 2.02135 6.83762C2.04386 6.50779 2.09336 6.17788 2.22836 5.85195C2.53284 5.11687 3.11687 4.53284 3.85195 4.22836C4.17788 4.09336 4.50779 4.04386 4.83762 4.02135C5.15088 3.99998 5.52937 3.99999 5.96802 4ZM4.31745 6.27777C4.68114 5.86214 5.3129 5.82002 5.72854 6.1837L11.3415 11.095C11.7185 11.4249 12.2815 11.4249 12.6585 11.095L18.2715 6.1837C18.6871 5.82002 19.3189 5.86214 19.6825 6.27777C20.0462 6.69341 20.0041 7.32517 19.5885 7.68885L13.9755 12.6002C12.8444 13.5899 11.1556 13.5899 10.0245 12.6002L4.41153 7.68885C3.99589 7.32517 3.95377 6.69341 4.31745 6.27777Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                    </svg>
+                  </a>
+                  <!-- Location -->
+                  <a
+                    href="https://maps.app.goo.gl/REvzkBC9GBhhqVat6"
+                    target="_blank"
+                  >
+                    <svg
+                      fill="currentColor"
+                      class="sosmed"
+                      version="1.1"
+                      id="Filled_Icons"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 24 24"
+                      enable-background="new 0 0 24 24"
+                      xml:space="preserve"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <title>See Location</title>
+                        <g id="Location-Filled">
+                          <path
+                            d="M12,1C7.58,1,4,4.58,4,9c0,7.08,8,14,8,14s8-6.92,8-14C20,4.58,16.42,1,12,1z M12,12c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,12,12,12z"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </div>
+                <p class="mt-5 text-sm">
+                  &copy;2023 PT Adi Saka Mandiri. All Rights Reserved.
+                </p>
+              </div>
+            </nav>
+            <!-- Nav Stop -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <section
+      class="fixed left-0 hidden w-4/5 h-screen transition duration-300 ease-in opacity-0 z-[100] lg:hidden filter-nav bg-black/50 backdrop-blur-md top-[69px]"
+    ></section>
+    <!-- Main -->
+    <main>
+      <!-- Preface -->
+      <div class="container mx-auto bg-white">
+        <section class="pt-20 lg:pt-28" id="preface">
+          <div class="container px-4 mx-auto">
+            <div class="mx-auto">
+              <h2
+                class="inline-block px-4 py-2 text-4xl font-bold text-white lg:text-5xl bg-secondary"
+              >
+                Preface
+              </h2>
+
+              <div class="mt-20 sm:mt-28">
+                <img
+                  src="/src/img/director-adisakamandiri.jpg"
+                  alt="Director PT. Adisaka Mandiri"
+                  class="float-left w-full mb-10 sm:max-w-md"
+                />
+                <article class="">
+                  <p class="mt-10">
+                    In the name of GOD, the Most Gracious, the Most
+                    Merciful..<br />Our gratitude goes to Allah SWT, that we can
+                    participate in developing the business world of medical
+                    devices and other supporting needs. We have a vision to
+                    become the trusted choice for Medical Products and Supplies
+                    in Indonesia, therefore we are committed to providing the
+                    best service to all of our working partners and customers.
+                  </p>
+                  <p class="mt-10">
+                    We will always try to provide the best service and quality
+                    in every product we sell. With the principle of Continous
+                    Support, every product we sell is always supported by
+                    after-sales service, both product warranty and technical
+                    assistance to users, thereby guaranteeing that every product
+                    we sell can function properly in the relevant agencies.
+                  </p>
+                  <p class="mt-10">
+                    We sincerely hope that this company profile will be a good
+                    start for our cooperation in the future. Thus, we thank you
+                    for the attention and trust given.
+                  </p>
+                  <br /><br /><br />
+                  <div class="flex flex-col items-end mr-4 text-right">
+                    <p>Best Regards</p>
+                    <img src="/src/img/sign.jpg" alt="" class="w-24 sm:w-32" />
+                    <h3 class="font-bold">WIWEKO ISMOYO</h3>
+                    <h3>Director</h3>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Preface -->
+        <!-- Background -->
+        <section class="pt-20 lg:pt-28" id="background">
+          <div class="container px-4 mx-auto">
+            <div class="mx-auto">
+              <h2
+                class="inline-block px-4 py-2 text-4xl font-bold text-white lg:text-5xl bg-secondary"
+              >
+                Background
+              </h2>
+              <div class="mt-20 sm:mt-28">
+                <p class="mt-10">
+                  PT. ADI SAKA MANDIRI was incorporated in 2011 and located in
+                  Bekasi, Indonesia. We have been working with BUMN holding
+                  company and supplying hospital equiptment, medical equiptment,
+                  medical disposable laboratory products to hospitals and
+                  medical centres since 2011.
+                </p>
+                <p class="mt-10">
+                  For special vehicle development, we carry out partnership with
+                  some companies, producing vehicles with special and innovative
+                  designs created by our creative team, such as Mobile
+                  Laboratory BSL-2 Covid-19, Mobile Rotgen X-Ray, Mobile
+                  Transfusion, Isolation Ambulance . We aims to be a well-known
+                  and established supplier of high quality medical products
+                  while providing excellent services to or customers. With our
+                  dedicated and proffesional team, we grow and offering an
+                  incomparable range of high-quality products to the medical
+                  industry in Indonesia.
+                </p>
+                <p class="mt-10">
+                  PT. ADI SAKA MANDIRI upholding product quality and partnering
+                  with world-class manufacturers of medical device products that
+                  have an international reputation in terms of medical device
+                  products. With our Vision and Mission, we will provide and
+                  offer international standard products, competitive prices and
+                  the best and most reliable service, as we try to combine
+                  modern technology, functional concepts, analysis results, and
+                  ease of use of tools so as to achieve the ultimate goal of
+                  facilitating inspection activities quickly and accurately,
+                  supported by technical assistance and guaranteed availability
+                  of tools directly from the Manufacturer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Background -->
+        <!-- Vison Mission -->
+        <section class="pt-20 lg:pt-28" id="vision-mission">
+          <div class="container px-4 mx-auto">
+            <div class="mx-auto">
+              <h2
+                class="inline-block px-4 py-2 text-4xl font-bold text-white lg:text-5xl bg-secondary"
+              >
+                Vison & Mission
+              </h2>
+              <div class="mt-20 sm:mt-28">
+                <h3 class="text-2xl italic font-bold">
+                  "Our vision is to become the trusted choice for Medical
+                  Products and Supplies in Indonesia."
+                </h3>
+                <h3 class="mt-10 text-2xl italic font-bold">
+                  Our missions are:
+                </h3>
+                <ul
+                  class="pl-10 mt-5 list-disc list-outside text-slate-600 lg:text-lg"
+                >
+                  <li>
+                    Help Fulfill Services and Distribution of Medical Devices
+                    for Hospitals and medical centres, which are fast, precise,
+                    effective and efficient.
+                  </li>
+                  <li>
+                    Help meet the needs of Medical Devices that have advantages
+                    at competitive prices.
+                  </li>
+                  <li>
+                    Continuing to innovate creatively in developing and
+                    procuring medical devices with special designs as a form of
+                    our commitment to facilitating health services, especially
+                    for special conditions.
+                  </li>
+                  <li>
+                    Providing Professional, Trusted and Best service to our
+                    cooperation partners.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Vison Mission -->
+        <!-- Structure -->
+        <section class="pt-20 lg:pt-28" id="structure">
+          <div class="container px-4 mx-auto">
+            <div class="mx-auto">
+              <h2
+                class="inline-block px-4 py-2 text-4xl font-bold text-white lg:text-5xl bg-secondary"
+              >
+                Structure
+              </h2>
+              <div class="mt-20 sm:mt-28">
+                <img
+                  src="/src/img/structure.png"
+                  alt="Structure Organization"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Structure -->
+        <!-- Legality -->
+        <section class="py-20 lg:py-28" id="legality">
+          <div class="container px-4 mx-auto">
+            <div class="mx-auto">
+              <h2
+                class="inline-block px-4 py-2 text-4xl font-bold text-white lg:text-5xl bg-secondary"
+              >
+                Our Legality
+              </h2>
+              <div class="mt-20 sm:mt-28">
+                <div
+                  class="grid gap-10 grid-flow-dense sm:grid-cols-2 md:grid-cols-3"
+                >
+                  <img src="/src/img/legality/legal1.png" alt="legal1" />
+                  <img src="/src/img/legality/legal2.png" alt="legal2" />
+                  <img src="/src/img/legality/legal3.png" alt="legal3" />
+                  <img src="/src/img/legality/legal4.png" alt="legal4" />
+                  <img src="/src/img/legality/legal5.png" alt="legal5" />
+                  <img src="/src/img/legality/legal6.png" alt="legal6" />
+                  <img src="/src/img/legality/legal7.png" alt="legal7" />
+                  <img src="/src/img/legality/legal8.png" alt="legal8" />
+                  <img src="/src/img/legality/legal9.png" alt="legal9" />
+                  <img src="/src/img/legality/legal10.png" alt="legal10" />
+                  <img src="/src/img/legality/legal11.png" alt="legal1" />
+                  <img src="/src/img/legality/legal12.png" alt="legal1" />
+                  <img src="/src/img/legality/legal13.png" alt="legal1" />
+                  <img src="/src/img/legality/legal14.png" alt="legal1" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Legality -->
+      </div>
+    </main>
+    <!-- End Main -->
+    <!-- Footer Section -->
+    <footer class="relative">
+      <div
+        class="container relative z-10 items-center justify-center p-4 pt-10 mx-auto bg-white"
+      >
+        <div>
+          <img
+            src="/src/img/logo.png"
+            class="w-14"
+            alt="PT. Adi Saka Mandiri"
+          />
+          <h2 class="mt-4 text-xl font-bold">
+            Navigate Your Healthcare With Our Innovative Solutions.
+          </h2>
+        </div>
+        <div
+          class="flex flex-col flex-wrap w-full gap-5 mt-10 sm:flex-row justify-evenly"
+        >
+          <div>
+            <h2 class="footer-title-list">Pages</h2>
+            <ul class="footer-list">
+              <li class="footer-list">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="footer-list">
+                <a href="product.html">Our Product</a>
+              </li>
+              <li class="footer-list">
+                <a href="about.html">About</a>
+              </li>
+              <li class="footer-list">
+                <a href="index.html#contact">Contact</a>
+              </li>
+              <li class="footer-list">
+                <a href="request.html">Request For Quotation</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="footer-title-list">Product</h2>
+            <ul class="footer-list">
+              <li class="footer-list">
+                <a href="product.html#electromedic">Electromedic</a>
+              </li>
+              <li class="footer-list">
+                <a href="product.html#hvac">HVAC</a>
+              </li>
+              <li class="footer-list">
+                <a href="product.html#vehicle">Vehicle</a>
+              </li>
+              <li class="footer-list">
+                <a href="product.html#hospital-furniture">Hospital Furniture</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="footer-title-list">Company</h2>
+            <ul class="footer-list">
+              <li class="footer-list">
+                <a href="about.html#preface">Preface</a>
+              </li>
+              <li class="footer-list">
+                <a href="about.html#background">Background</a>
+              </li>
+              <li class="footer-list">
+                <a href="about.html#vision-mission">Vision & Mission</a>
+              </li>
+              <li class="footer-list">
+                <a href="about.html#structure">Structure</a>
+              </li>
+              <li class="footer-list">
+                <a href="about.html#legality">Legality</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Sosmed -->
+        <div class="mt-10">
+          <hr />
+          <div class="flex items-center gap-5 mt-5">
+            <!-- Whatsapp -->
+            <a
+              href="https://wa.me/6285894313138"
+              target="_blank"
+              title="Contact via Whatsapp"
+            >
+              <svg
+                viewBox="0 0 48 48"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#000000"
+                class="sosmed"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>Contact with Whatsapp</title>
+                  <desc>Created with Sketch.</desc>
+                  <defs></defs>
+                  <g
+                    id="Icons"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Color-"
+                      transform="translate(-700.000000, -360.000000)"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M723.993033,360 C710.762252,360 700,370.765287 700,383.999801 C700,389.248451 701.692661,394.116025 704.570026,398.066947 L701.579605,406.983798 L710.804449,404.035539 C714.598605,406.546975 719.126434,408 724.006967,408 C737.237748,408 748,397.234315 748,384.000199 C748,370.765685 737.237748,360.000398 724.006967,360.000398 L723.993033,360.000398 L723.993033,360 Z M717.29285,372.190836 C716.827488,371.07628 716.474784,371.034071 715.769774,371.005401 C715.529728,370.991464 715.262214,370.977527 714.96564,370.977527 C714.04845,370.977527 713.089462,371.245514 712.511043,371.838033 C711.806033,372.557577 710.056843,374.23638 710.056843,377.679202 C710.056843,381.122023 712.567571,384.451756 712.905944,384.917648 C713.258648,385.382743 717.800808,392.55031 724.853297,395.471492 C730.368379,397.757149 732.00491,397.545307 733.260074,397.27732 C735.093658,396.882308 737.393002,395.527239 737.971421,393.891043 C738.54984,392.25405 738.54984,390.857171 738.380255,390.560912 C738.211068,390.264652 737.745308,390.095816 737.040298,389.742615 C736.335288,389.389811 732.90737,387.696673 732.25849,387.470894 C731.623543,387.231179 731.017259,387.315995 730.537963,387.99333 C729.860819,388.938653 729.198006,389.89831 728.661785,390.476494 C728.238619,390.928051 727.547144,390.984595 726.969123,390.744481 C726.193254,390.420348 724.021298,389.657798 721.340985,387.273388 C719.267356,385.42535 717.856938,383.125756 717.448104,382.434484 C717.038871,381.729275 717.405907,381.319529 717.729948,380.938852 C718.082653,380.501232 718.421026,380.191036 718.77373,379.781688 C719.126434,379.372738 719.323884,379.160897 719.549599,378.681068 C719.789645,378.215575 719.62006,377.735746 719.450874,377.382942 C719.281687,377.030139 717.871269,373.587317 717.29285,372.190836 Z"
+                        id="Whatsapp"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <!-- Phone -->
+            <a href="tel:6285894313138" target="_blank">
+              <svg
+                viewBox="0 0 15 15"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#000000"
+                class="sosmed"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>Contact via Phone</title>
+                  <desc>Created with Sketch.</desc>
+                  <defs></defs>
+                  <g
+                    id="Page-1"
+                    stroke="none"
+                    stroke-width="1"
+                    fill="none"
+                    fill-rule="evenodd"
+                  >
+                    <g
+                      id="Dribbble-Light-Preview"
+                      transform="translate(-103.000000, -7321.000000)"
+                      fill="currentColor"
+                    >
+                      <g
+                        id="icons"
+                        transform="translate(56.000000, 160.000000)"
+                      >
+                        <path
+                          d="M61.7302966,7173.99596 C61.2672966,7175.40296 59.4532966,7176.10496 58.1572966,7175.98796 C56.3872966,7175.82796 54.4612966,7174.88896 52.9992966,7173.85496 C50.8502966,7172.33496 48.8372966,7169.98396 47.6642966,7167.48896 C46.8352966,7165.72596 46.6492966,7163.55796 47.8822966,7161.95096 C48.3382966,7161.35696 48.8312966,7161.03996 49.5722966,7161.00296 C50.6002966,7160.95296 50.7442966,7161.54096 51.0972966,7162.45696 C51.3602966,7163.14196 51.7112966,7163.84096 51.9072966,7164.55096 C52.2742966,7165.87596 50.9912966,7165.93096 50.8292966,7167.01396 C50.7282966,7167.69696 51.5562966,7168.61296 51.9302966,7169.09996 C52.6632966,7170.05396 53.5442966,7170.87696 54.5382966,7171.50296 C55.1072966,7171.86196 56.0262966,7172.50896 56.6782966,7172.15196 C57.6822966,7171.60196 57.5872966,7169.90896 58.9912966,7170.48196 C59.7182966,7170.77796 60.4222966,7171.20496 61.1162966,7171.57896 C62.1892966,7172.15596 62.1392966,7172.75396 61.7302966,7173.99596 C61.4242966,7174.92396 62.0362966,7173.06796 61.7302966,7173.99596"
+                          id="call-[#192]"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <!-- Email -->
+            <a href="mailto:wiweko.ismoyo@gmail.com" target="_blank">
+              <svg
+                class="sosmed"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>Contact via Email</title>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.96802 4H18.032C18.4706 3.99999 18.8491 3.99998 19.1624 4.02135C19.4922 4.04386 19.8221 4.09336 20.1481 4.22836C20.8831 4.53284 21.4672 5.11687 21.7716 5.85195C21.9066 6.17788 21.9561 6.50779 21.9787 6.83762C22 7.15088 22 7.52936 22 7.96801V16.032C22 16.4706 22 16.8491 21.9787 17.1624C21.9561 17.4922 21.9066 17.8221 21.7716 18.1481C21.4672 18.8831 20.8831 19.4672 20.1481 19.7716C19.8221 19.9066 19.4922 19.9561 19.1624 19.9787C18.8491 20 18.4706 20 18.032 20H5.96801C5.52936 20 5.15088 20 4.83762 19.9787C4.50779 19.9561 4.17788 19.9066 3.85195 19.7716C3.11687 19.4672 2.53284 18.8831 2.22836 18.1481C2.09336 17.8221 2.04386 17.4922 2.02135 17.1624C1.99998 16.8491 1.99999 16.4706 2 16.032V7.96802C1.99999 7.52937 1.99998 7.15088 2.02135 6.83762C2.04386 6.50779 2.09336 6.17788 2.22836 5.85195C2.53284 5.11687 3.11687 4.53284 3.85195 4.22836C4.17788 4.09336 4.50779 4.04386 4.83762 4.02135C5.15088 3.99998 5.52937 3.99999 5.96802 4ZM4.31745 6.27777C4.68114 5.86214 5.3129 5.82002 5.72854 6.1837L11.3415 11.095C11.7185 11.4249 12.2815 11.4249 12.6585 11.095L18.2715 6.1837C18.6871 5.82002 19.3189 5.86214 19.6825 6.27777C20.0462 6.69341 20.0041 7.32517 19.5885 7.68885L13.9755 12.6002C12.8444 13.5899 11.1556 13.5899 10.0245 12.6002L4.41153 7.68885C3.99589 7.32517 3.95377 6.69341 4.31745 6.27777Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+            <!-- Location -->
+            <a href="https://maps.app.goo.gl/REvzkBC9GBhhqVat6" target="_blank">
+              <svg
+                fill="currentColor"
+                class="sosmed"
+                version="1.1"
+                id="Filled_Icons"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 24 24"
+                enable-background="new 0 0 24 24"
+                xml:space="preserve"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>See Location</title>
+                  <g id="Location-Filled">
+                    <path
+                      d="M12,1C7.58,1,4,4.58,4,9c0,7.08,8,14,8,14s8-6.92,8-14C20,4.58,16.42,1,12,1z M12,12c-1.66,0-3-1.34-3-3s1.34-3,3-3 s3,1.34,3,3S13.66,12,12,12z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <p class="mt-5">
+            &copy;2023 PT Adi Saka Mandiri. All Rights Reserved.
+          </p>
+        </div>
+        <!-- End Sosmed -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
+          <dir
+            class="absolute m-auto w-[500px] bg-cover blur-sm opacity-10 aspect-square bg-footer-pattern -right-60 bottom-40 sm:bottom-0"
+          ></dir>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Main JS -->
+    <script type="module" src="/src/js/about.js"></script>
+  </body>
+</html>

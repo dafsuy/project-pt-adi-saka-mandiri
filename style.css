@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply text-slate-600 sm:text-xl;
+}
+
+/* Navbar */
+.navbar-fixed {
+  @apply fixed z-[1000];
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-white {
+  @apply bg-white bg-opacity-80;
+}
+
+.navbar-full-white {
+  @apply bg-white;
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-text-white {
+  @apply text-slate-700;
+}
+
+.author-change {
+  @apply text-primary;
+}
+/* Hamburger */
+.hamburger-line {
+  @apply w-[30px] h-[4px] my-[6px] block bg-secondary;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+/* Button Home */
+
+.btn-hero {
+  @apply text-white py-2 px-5 border border-white font-bold text-xs text-center lg:text-sm hover:bg-white/50 hover:text-white transition ease-in active:scale-95 duration-75 rounded-full w-full;
+}
+
+/* Swiper */
+
+.my-btn {
+  @apply px-4 py-2 font-bold text-white transition ease-in-out rounded-full bg-secondary hover:bg-primary active:scale-95;
+}
+
+/* Categori Product Home */
+.product-card {
+  @apply w-full bg-center bg-cover aspect-video relative rounded-lg border-l-4 border-secondary;
+}
+
+.product-card-filter {
+  @apply w-full h-full bg-black/50 rounded-lg;
+}
+
+.product-card-container {
+  @apply absolute w-full h-full flex flex-col justify-evenly items-center;
+}
+
+.product-title {
+  @apply text-white font-bold text-3xl;
+}
+
+.btn-view-product {
+  @apply text-lg text-white border-2 border-white px-5 py-2 hover:bg-white/30 transition ease-in-out active:scale-95 rounded-full;
+}
+
+/* Product Page */
+/* Section */
+.section-product {
+  @apply pt-20 lg:pt-28;
+}
+
+.container-product {
+  @apply mx-auto container p-4;
+}
+
+.product-category-name {
+  @apply px-4 py-2 font-bold text-4xl lg:text-5xl text-white bg-secondary inline-block;
+}
+
+.product-item-container {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-5 mt-10 lg:mt-20;
+}
+
+.product-item-card {
+  @apply p-5 max-w-sm bg-white mx-auto;
+}
+
+.product-img-container {
+  @apply mx-auto aspect-square flex items-center;
+}
+
+.product-item-img {
+  @apply mx-auto w-full max-h-80;
+}
+
+.product-item-category {
+  @apply font-bold text-center text-slate-400 mt-5;
+}
+
+.product-item-name {
+  @apply font-bold text-center text-3xl mt-10 sm:text-4xl;
+}
+
+.product-item-content {
+  @apply flex justify-center flex-col;
+}
+
+.product-btn-form {
+  @apply text-white font-bold mt-5 hover:bg-primary bg-secondary rounded-full inline-block px-4 py-2 ease-linear text-sm mx-auto transition;
+}
+
+.product-btn-contact {
+  @apply block text-secondary font-bold hover:underline ease-in-out transition text-sm mt-3 mb-5 mx-auto text-center;
+}
+
+/* List product description */
+
+.list-container {
+  @apply mt-5 ml-5 grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-5;
+}
+
+.list-item-container {
+  @apply flex;
+}
+
+.l-img {
+  @apply w-6 h-6 bg-cover mr-5 mt-[2px];
+}
+
+.list-value {
+
+}
+
+/* Footer */
+.footer-title-list {
+  @apply font-semibold text-slate-800;
+}
+
+.footer-list {
+  @apply text-slate-500 font-semibold hover:text-secondary ease-in transition my-3;
+}
+
+.sosmed {
+  @apply w-6 h-6 text-secondary transition ease-out hover:text-primary;
+}
