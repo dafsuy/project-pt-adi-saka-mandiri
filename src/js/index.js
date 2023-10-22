@@ -44,7 +44,7 @@ AOS.init({
 // Submit Form WA
 function submitMessageWa() {
   let name = document.getElementById('name-form-wa').value;
-  let waNumber = '6285894313138';
+  let waNumber = '6281770584158';
   let message = document.getElementById('text-form-wa').value;
   let textFormat;
 
